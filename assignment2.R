@@ -1,4 +1,4 @@
-Author: "Davion Greene", Date: September 22, 2022, Purpose: To Calculate Correlation Analysis
+# Author: Greene, Date: September 22, 2022, Purpose: To Calculate Correlation Analysis
 my_data <- mtcars 
 head(my_data, 6)
 ggscatter(my_data, x = "mpg", y = "wt", add = "reg.line", conf.int = TRUE, cor.coef = TRUE, cor.method = "pearson", xlab = "Miles/(US) gallon", ylab = "Weight (1000 lbs)")
